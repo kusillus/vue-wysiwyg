@@ -243,13 +243,16 @@ $svgSize = 16px
 .editr
     border 1px solid darken($offwhite, 7.5%)
     width 100%
+    border-radius 10px
+    overflow auto
 
 .editr--toolbar
-    background $offwhite
+    background #fff
     border-bottom 1px solid darken($offwhite, 7.5%)
     position relative
     display flex
     height $buttonHeight
+    margin 0 10px
 
     a
         display inline-block
@@ -344,4 +347,15 @@ $svgSize = 16px
 
         a.vw-btn-separator
             display none
+
+.ql-stroke
+    fill: none!important
+    stroke #444
+    stroke-linecap round
+    stroke-linejoin round
+    stroke-width 2
+
+.ql-fill
+    fill #444!important
+
 </style>
