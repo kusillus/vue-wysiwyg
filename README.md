@@ -7,18 +7,18 @@
 ### Install vue-wysiwyg
 
 ``` bash
-npm install vue-wysiwyg --save
+npm install p2p-editor --save
 ```
 OR
 
 ``` bash
-yarn add vue-wysiwyg
+yarn add p2p-editor
 ```
 
 In your `main.js`:
 
 ```js
-import wysiwyg from "vue-wysiwyg";
+import wysiwyg from "p2p-editor";
 Vue.use(wysiwyg, {}); // config is optional. more below
 ```
 
@@ -26,7 +26,7 @@ Also make sure to load the stylesheet.
 The exact syntax will depend on what preprocessor you use.
 
 ```css
-@import "~vue-wysiwyg/dist/vueWysiwyg.css";
+@import "~p2p-editor/dist/vueWysiwyg.css";
 ```
 
 In your components:
